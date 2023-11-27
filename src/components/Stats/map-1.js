@@ -22,13 +22,15 @@ const Mapi = () => {
   
   return (
     <div className="App">
+      <div class="Center">
       <WorldMap
         color="black"
-        title="Export To Different Countries"
+        title="Export From India to Other Countries"
         value-suffix="$"
         size="responsive"
         data={data}
       />
+    </div>
     </div>
   );
 };

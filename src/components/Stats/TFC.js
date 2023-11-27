@@ -40,33 +40,34 @@ export const data = {
     {
       label: 'Mongolia',
       data: ['62.60',	'86.20','58.59','64.99','31.16'],
-      borderColor: 'rgb(255, 128, 0)',
-      backgroundColor: 'rgba(255, 128, 0, 0.8)',
+      backgroundColor: '#1C4532',
+      borderColor:'#1C4532',
     },
     {
       label: 'Bangladesh' ,
       data: ['56.94',	'59.98','58.87','57.53','47.14'],
-      borderColor: 'rgba(22, 84, 3, 0.8)',
-      backgroundColor: 'rgba(22, 84, 3, 0.8)',
+      backgroundColor: '#38B2AC',
+      borderColor: '#38B2AC',
     },
     
     {
       label: 'Mali' ,
       data: ['53.82',	'59.55','63.56','35.56','16.35'],
-      borderColor: 'rgb(124, 255,1)',
-      backgroundColor: 'rgba(124, 255, 1, 0.8)',
+      backgroundColor: '#2B6CB0',
+      borderColor: '#2B6CB0',
+
     },
     {
       label: 'Cambodia' ,
       data: ['33.45', '36.62',	'51.18','42.89','21.32'],
-      borderColor: 'rgba(169, 80, 255, 0.8)',
-      backgroundColor: 'rgba(169, 80, 255, 0.8)',
+      backgroundColor: '#D53F8C',
+      borderColor: '#D53F8C',
     },
     {
       label: 'Turkmenistan' ,
       data: ['32.02','10.85','11.59','0.77'],
-      borderColor: 'rgba(255, 0, 0, 1)',
-      backgroundColor: 'rgba(255, 0, 0, 1)',
+      backgroundColor: '#805AD5',
+       borderColor: '#805AD5',
     },
   ],
 };

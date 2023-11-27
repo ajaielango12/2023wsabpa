@@ -37,22 +37,18 @@ export const data = {
   labels,
   datasets: [
     {
-      label: 'Export of Textiles From India ',
-      data: [35723, 36558, 33379, 29877, 42345],
+      label: 'SITP Investments (INR Crore)',
+      data: [400, 450, 500, 550, 600],
       backgroundColor: '#00A3C4',
     },
-    { 
-      label: 'Import Of Textiles Into India ',
-      data: [4666.69,7340.74,6928.34,4953.68,3938.72],
-      backgroundColor: '#065666',
-    },
+  
   ],
 };
 
-const Barchart = () => {
+const Investmentgoi = () => {
   return <Bar options={options} data={data} />;
 };
 
-export default Barchart ;
+export default Investmentgoi ;
 
 

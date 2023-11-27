@@ -1,0 +1,5 @@
+label: 'Number of Mills ',
+      data: [154,9,4,1,14,3,3,1,150,194,21,2,1,51,40,71,23,15,158,96,2032,44,120,14,37],
+      backgroundColor: 'rgb(255, 99, 132)',
+      borderColor: 'rgb(255, 128, 0)',
+      backgroundColor: 'rgba(255, 128, 0, 0.8)',
