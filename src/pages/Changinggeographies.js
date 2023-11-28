@@ -1,4 +1,4 @@
-import { Container, Heading, Text ,Box,Button,Center} from "@chakra-ui/react";
+import { Container, Heading, Text ,Box,Button,Center,Title} from "@chakra-ui/react";
 import Ring from "../components/Stats/Doughnut"
 import LinkNext from "next/link";
 import Mapi from "../components/Stats/map-1.js";
@@ -7,8 +7,9 @@ import Mapi from "../components/Stats/map-1.js";
 const Risingexports = () => {
     return (
     <>
+<title>Shifting Export Destinations</title>
 <Box className="box1" borderWidth="5px" borderRadius="lg" borderColor="#008080" bg="white" padding={"20px"} marginBottom={"20px"}>
-      
+    
     <Text fontSize={18} color ="#008080"> 3.Shifting Export Destinations</Text>
     <Box alignSelf={"center"} padding={"20px"}>
          <Mapi></Mapi>

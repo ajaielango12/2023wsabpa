@@ -3,7 +3,7 @@ import LinkNext from "next/link";
 
 const LayoutFooter = () => {
   return (
-    <Container minW="100%" color="white" bg="gray.300" p={2} py={4}>
+    <Container minW="100%" color="white" bg="teal.500" p={2} py={4}>
       <Flex
         width="1000px"
         mx="auto"
@@ -12,9 +12,9 @@ const LayoutFooter = () => {
         pb={24}
       >
         <Text>
-          (c) Ajai Elango I<LinkNext href="https://www.cbs.de">CBS </LinkNext>
+          (c) Ajai Elango |<LinkNext href="https://www.cbs.de">CBS </LinkNext>
         </Text>
-        <LinkNext href="/imprint">Imprint</LinkNext>
+        <LinkNext href="/imprint">Imprint</LinkNext>       
       </Flex>
     </Container>
   );

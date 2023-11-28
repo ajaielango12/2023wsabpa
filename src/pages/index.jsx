@@ -1,4 +1,4 @@
-import { Flex, Heading, Text ,Spacer} from "@chakra-ui/react";
+import { Flex, Heading, Text ,Spacer,itle} from "@chakra-ui/react";
 import Barchart from "../components/Stats/barchart";
 import Ring from "../components/Stats/Doughnut"
 import LinkNext from "next/link";
@@ -18,10 +18,12 @@ import Investmentgoi from "../components/Stats/Goispti";
 
 const Home = () => {
   return (
+    
     <>
+  <title>A Study On Indian Textile Market</title>
 <Flex w ="stretch" padding = "5px" flexDirection="column" alignItems="Center" gap="10px" bg = "#008080" marginBottom={"20px"} mx="auto">
 <Text Color= "#FFF" fontFamily="Inter" fontSize="82px" fontStyle="normal" fontWeight="800" lineHeight="normal" letterSpacing="-6.56px" align ="center" color="white">
-  A Study On The Indian Apparel Market
+  A Study On The India Textile Market
 </Text>
 
 <Text align="Center" fontSize={14} color="white">

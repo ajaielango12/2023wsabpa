@@ -1,4 +1,4 @@
-import { Container, Heading, Text } from "@chakra-ui/react";
+import { Container, Heading, Text ,Title} from "@chakra-ui/react";
 import ImportFC from "../components/Stats/TFC.js";
 import Ring from "../components/Stats/Doughnut"
 import Categoryexport from "../components/Stats/CategoryWiseEX.js";
@@ -14,6 +14,7 @@ import LinkNext from "next/link";
 const Changingcategories = () => {
   return (
     <>
+<title>Diversification of Export Categories</title>
 <Box className="box1" borderWidth="5px" borderRadius="lg" borderColor="#008080" bg="white" padding={"20px"} marginBottom={"20px"}>
     <Text fontSize={18} color ="#008080"> 2.Diversification of Exports</Text>
     <Text align="justify">

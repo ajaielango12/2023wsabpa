@@ -1,4 +1,4 @@
-import { Container, Heading, Text,Box,Button,Center } from "@chakra-ui/react";
+import { Container, Heading, Text,Box,Button,Center,Title } from "@chakra-ui/react";
 import LinkNext from "next/link";
 import MillCharts from "../components/Stats/Mills.tsx";
 import TSWCharts from "../components/Stats/MWI.tsx";
@@ -10,6 +10,7 @@ import Parktable from "../components/Stats/park";
 const Integratedparks = () => {
   return (
     <>
+      <title>Integrated Textile Parks</title>
       <Box className="box1" borderWidth="5px" borderRadius="lg" borderColor="#008080" bg="white" padding={"20px"} marginBottom={"20px"}>
        <Text fontSize={18} color="#008080">6.Development Of Integrated Textile Parks Under Public Private Partnership</Text>
        <Text align="Justify">

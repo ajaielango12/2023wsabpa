@@ -1,4 +1,4 @@
-import { Container, Heading, Text } from "@chakra-ui/react";
+import { Container, Heading, Text,Title} from "@chakra-ui/react";
 import LinkNext from "next/link";
 import Barchart from "../components/Stats/barchart";
 import ImportFC from "../components/Stats/TFC";
@@ -11,6 +11,7 @@ import { Image } from "@chakra-ui/react";
 const EXIM = () => {
   return (
     <>
+  <title>Rising Exports and Reducing Imports</title>
 <Box className="box1" borderWidth="5px" borderRadius="lg" borderColor="#008080" bg="white" padding={"20px"} marginBottom={"20px"}>
     <Text fontSize={18} color ="#008080">1.Rising Exports </Text>
        <Text fontSize={18} align="center"><strong>Increasing Exports and Decreasing Imports: Indias Textile Industry on the Rise</strong></Text>
